@@ -3,7 +3,6 @@ import { Contact } from 'components';
 import { BoardContacts, ContactsItem } from './ContactList.styled';
 
 export const ContactList = ({ items, onDelete }) => {
-  console.log(items);
   return (
     <BoardContacts>
       {items.map(item => {
